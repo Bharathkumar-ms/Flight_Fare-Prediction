@@ -22,7 +22,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("Entered the data ingestion method or component")
         try:
-            df=pd.read_excel("notebook\data\Data_Train.xlsx")
+            df=pd.read_excel("notebook/data/Data_Train.xlsx")
             logging.info('Read the dataset as dataframe')
             
 
