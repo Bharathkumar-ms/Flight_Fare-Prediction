@@ -1,0 +1,26 @@
+[ 2023-09-07 18:06:30,213 ] 23 root - INFO - Entered the data ingestion method or component
+[ 2023-09-07 18:06:32,581 ] 26 root - INFO - Read the dataset as dataframe
+[ 2023-09-07 18:06:32,663 ] 33 root - INFO - Train test split initiated
+[ 2023-09-07 18:06:32,756 ] 40 root - INFO - Ingestion of the data is completed
+[ 2023-09-07 18:06:32,757 ] 21 root - INFO - Entered the data cleaning method or component
+[ 2023-09-07 18:06:32,879 ] 26 root - INFO - Read the dataset as dataframe
+[ 2023-09-07 18:06:32,927 ] 33 root - INFO - processing the training dataset as dataframe
+[ 2023-09-07 18:06:33,319 ] 76 root - INFO - processingthe test dataset as dataframe
+[ 2023-09-07 18:06:33,319 ] 90 root - INFO - ended the loop
+[ 2023-09-07 18:06:33,334 ] 105 root - INFO - ended the loop
+[ 2023-09-07 18:06:33,334 ] 107 root - INFO - returning done
+[ 2023-09-07 18:06:33,334 ] 110 root - INFO - directory created
+[ 2023-09-07 18:06:33,376 ] 114 root - INFO - df1 saved
+[ 2023-09-07 18:06:33,384 ] 116 root - INFO - df2 saved
+[ 2023-09-07 18:06:33,384 ] 118 root - INFO - Train test data cleaned
+[ 2023-09-07 18:06:33,465 ] 81 root - INFO - Read train and test data completed
+[ 2023-09-07 18:06:33,465 ] 83 root - INFO - Obtaining preprocessing object
+[ 2023-09-07 18:06:33,465 ] 55 root - INFO - Categorical columns: ['Airline', 'Source', 'Destination']
+[ 2023-09-07 18:06:33,465 ] 56 root - INFO - Numerical columns: ['Journey_day', 'Journey_month', 'Journey_year', 'hours', 'minutes', 'Arrival_hour', 'Arrival_min', 'duration_mins', 'duration_hours', 'Total_Stops']
+[ 2023-09-07 18:06:33,465 ] 68 root - INFO - Train test split initiated
+[ 2023-09-07 18:06:33,499 ] 93 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2023-09-07 18:06:33,622 ] 99 root - INFO - Saved preprocessing object.
+[ 2023-09-07 18:06:33,629 ] 36 root - INFO - Split training and test input data
+[ 2023-09-07 18:13:18,197 ] 109 root - INFO - Best found model on both training and testing dataset
+[ 2023-09-07 18:13:18,251 ] 35 root - INFO - Split training and test input data
+[ 2023-09-07 18:19:48,516 ] 105 root - INFO - Best found model on both training and testing dataset

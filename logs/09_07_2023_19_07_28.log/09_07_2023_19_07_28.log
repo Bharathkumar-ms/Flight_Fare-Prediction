@@ -1,0 +1,25 @@
+[ 2023-09-07 19:07:33,640 ] 23 root - INFO - Entered the data ingestion method or component
+[ 2023-09-07 19:07:35,182 ] 26 root - INFO - Read the dataset as dataframe
+[ 2023-09-07 19:07:35,231 ] 33 root - INFO - Train test split initiated
+[ 2023-09-07 19:07:35,283 ] 40 root - INFO - Ingestion of the data is completed
+[ 2023-09-07 19:07:35,284 ] 21 root - INFO - Entered the data cleaning method or component
+[ 2023-09-07 19:07:35,339 ] 26 root - INFO - Read the dataset as dataframe
+[ 2023-09-07 19:07:35,363 ] 33 root - INFO - processing the training dataset as dataframe
+[ 2023-09-07 19:07:35,638 ] 76 root - INFO - processingthe test dataset as dataframe
+[ 2023-09-07 19:07:35,641 ] 90 root - INFO - ended the loop
+[ 2023-09-07 19:07:35,649 ] 105 root - INFO - ended the loop
+[ 2023-09-07 19:07:35,649 ] 107 root - INFO - returning done
+[ 2023-09-07 19:07:35,650 ] 110 root - INFO - directory created
+[ 2023-09-07 19:07:35,675 ] 114 root - INFO - df1 saved
+[ 2023-09-07 19:07:35,682 ] 116 root - INFO - df2 saved
+[ 2023-09-07 19:07:35,683 ] 118 root - INFO - Train test data cleaned
+[ 2023-09-07 19:07:35,712 ] 81 root - INFO - Read train and test data completed
+[ 2023-09-07 19:07:35,712 ] 83 root - INFO - Obtaining preprocessing object
+[ 2023-09-07 19:07:35,713 ] 55 root - INFO - Categorical columns: ['Airline', 'Source', 'Destination']
+[ 2023-09-07 19:07:35,713 ] 56 root - INFO - Numerical columns: ['Journey_day', 'Journey_month', 'Journey_year', 'hours', 'minutes', 'Arrival_hour', 'Arrival_min', 'duration_mins', 'duration_hours', 'Total_Stops']
+[ 2023-09-07 19:07:35,713 ] 68 root - INFO - Train test split initiated
+[ 2023-09-07 19:07:35,714 ] 93 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2023-09-07 19:07:35,750 ] 99 root - INFO - Saved preprocessing object.
+[ 2023-09-07 19:07:35,759 ] 35 root - INFO - Split training and test input data
+[ 2023-09-07 19:14:41,787 ] 110 root - INFO - Best found model on both training and testing dataset
+[ 2023-09-07 19:14:41,812 ] 134 root - INFO - mlflow starts

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/bhara/Downloads/Flight%20fare%20prediction/mlruns/0/2ce2c7959d87421b9e759457467bbd6d/artifacts
+end_time: 1694101457195
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2ce2c7959d87421b9e759457467bbd6d
+run_name: XGBRegressor
+run_uuid: 2ce2c7959d87421b9e759457467bbd6d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694101447231
+status: 3
+tags: []
+user_id: bhara

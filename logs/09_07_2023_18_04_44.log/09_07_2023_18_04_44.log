@@ -1,0 +1,22 @@
+[ 2023-09-07 18:04:50,481 ] 23 root - INFO - Entered the data ingestion method or component
+[ 2023-09-07 18:04:52,051 ] 26 root - INFO - Read the dataset as dataframe
+[ 2023-09-07 18:04:52,107 ] 33 root - INFO - Train test split initiated
+[ 2023-09-07 18:04:52,155 ] 40 root - INFO - Ingestion of the data is completed
+[ 2023-09-07 18:04:52,156 ] 21 root - INFO - Entered the data cleaning method or component
+[ 2023-09-07 18:04:52,199 ] 26 root - INFO - Read the dataset as dataframe
+[ 2023-09-07 18:04:52,214 ] 33 root - INFO - processing the training dataset as dataframe
+[ 2023-09-07 18:04:52,505 ] 76 root - INFO - processingthe test dataset as dataframe
+[ 2023-09-07 18:04:52,505 ] 90 root - INFO - ended the loop
+[ 2023-09-07 18:04:52,520 ] 105 root - INFO - ended the loop
+[ 2023-09-07 18:04:52,520 ] 107 root - INFO - returning done
+[ 2023-09-07 18:04:52,520 ] 110 root - INFO - directory created
+[ 2023-09-07 18:04:52,560 ] 114 root - INFO - df1 saved
+[ 2023-09-07 18:04:52,568 ] 116 root - INFO - df2 saved
+[ 2023-09-07 18:04:52,568 ] 118 root - INFO - Train test data cleaned
+[ 2023-09-07 18:04:52,596 ] 81 root - INFO - Read train and test data completed
+[ 2023-09-07 18:04:52,596 ] 83 root - INFO - Obtaining preprocessing object
+[ 2023-09-07 18:04:52,596 ] 55 root - INFO - Categorical columns: ['Airline', 'Source', 'Destination']
+[ 2023-09-07 18:04:52,596 ] 56 root - INFO - Numerical columns: ['Journey_day', 'Journey_month', 'Journey_year', 'hours', 'minutes', 'Arrival_hour', 'Arrival_min', 'duration_mins', 'duration_hours', 'Total_Stops']
+[ 2023-09-07 18:04:52,596 ] 68 root - INFO - Train test split initiated
+[ 2023-09-07 18:04:52,596 ] 93 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2023-09-07 18:04:52,643 ] 99 root - INFO - Saved preprocessing object.

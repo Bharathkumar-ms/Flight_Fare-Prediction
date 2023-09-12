@@ -1,0 +1,33 @@
+name: workflow
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'README.md'
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  integration:
+    name: Continuous Integration
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Lint code
+        run: echo "Linting repository"
+
+      - name: Run unit tests
+        run: echo "Running unit tests"
+
+      - uses: iterative/setup-cml@v1
+      - name: Train model
+        run: |
+          # Your ML workflow goes here
+          pip install -r requirements.txt
+          python src\pipelines\train_pipeline.py
