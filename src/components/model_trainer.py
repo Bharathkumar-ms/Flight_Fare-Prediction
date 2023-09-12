@@ -158,7 +158,7 @@ class ModelTrainer:
                 mlflow.log_metrics({"r2": r2, "mse": mse, "rmse": rmse, "mae": mae})
     
                 # Log the best model as an artifact
-                mlflow.sklearn.log_model(best_model, "best_model")
+                #mlflow.sklearn.log_model(best_model, "best_model")
 
                 return f"Best Model found is {best_model_name}, R-Squared is {r2}, MSE is {mse}, RMSE is {rmse}, MAE is {mae}"
 
