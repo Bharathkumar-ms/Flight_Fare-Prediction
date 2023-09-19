@@ -2,7 +2,6 @@ from src.components.data_ingestion import *
 from src.components.data_cleaning import *
 from src.components.data_transformation import *
 from src.components.model_trainer import *
-from src.components.model_evaluation import *
         
 if __name__=="__main__":
     obj=DataIngestion()
