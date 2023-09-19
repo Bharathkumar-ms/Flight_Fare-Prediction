@@ -3,7 +3,7 @@ import pandas as pd
 from src.pipelines.predict_pipeline import CustomData, PredictPipeline
 
 # Create a Streamlit web app
-st.title('Flight Fare Prediction')
+st.title(':red[Flight Fare Prediction]')
 
 # Define a function for the prediction form
 def prediction_form():
