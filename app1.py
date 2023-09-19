@@ -9,9 +9,9 @@ st.title('Flight Fare Prediction')
 def prediction_form():
     st.write('Fill in the details to predict flight fare:')
     # Create input widgets for user input
-    airline = st.selectbox('Airline', ['IndiGo', 'Air India', 'Jet Airways', 'SpiceJet', 'Multiple carriers', 'GoAir', 'Vistara', 'Air Asia','Vistara Premium economy', 'Jet Airways Business','Multiple carriers Premium economy', 'Trujet'])  # Replace with actual airline options
-    source = st.selectbox('Source', ['Banglore', 'Kolkata', 'Delhi', 'Chennai', 'Mumbai'])  # Replace with actual source options
-    destination = st.selectbox('Destination', ['New Delhi', 'Banglore', 'Cochin', 'Kolkata', 'Delhi', 'Hyderabad'])  # Replace with actual destination options
+    airline = st.selectbox('Airline', ['IndiGo', 'Air India', 'Jet Airways', 'SpiceJet', 'Multiple carriers', 'GoAir', 'Vistara', 'Air Asia','Vistara Premium economy', 'Jet Airways Business','Multiple carriers Premium economy', 'Trujet'])  
+    source = st.selectbox('Source', ['Banglore', 'Kolkata', 'Delhi', 'Chennai', 'Mumbai']) 
+    destination = st.selectbox('Destination', ['New Delhi', 'Banglore', 'Cochin', 'Kolkata', 'Delhi', 'Hyderabad'])  
     total_stops = st.number_input('Total Stops', min_value=0, max_value=5, value=1)
     journey_day = st.number_input('Journey Day', min_value=1, max_value=31, value=1)
     journey_month = st.number_input('Journey Month', min_value=1, max_value=12, value=1)
