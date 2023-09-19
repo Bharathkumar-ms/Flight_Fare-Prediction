@@ -1,6 +1,6 @@
 # Flight_Fare-Prediction
 
-Flight_Fare-Prediction: https://flight-fare-prediction.streamlit.app/
+Flight_Fare-Prediction web app: https://flight-fare-prediction.streamlit.app/
 
 
 # Flight_Fare-Prediction Analysis using Power BI
