@@ -32,7 +32,6 @@ class CustomData:
         Total_Stops: str,
         Journey_day: int,
         Journey_month: int,
-        Journey_year,
         hours,
         minutes,
         Arrival_hour,
@@ -53,7 +52,6 @@ class CustomData:
 
         self.Journey_month = Journey_month
 
-        self.Journey_year = Journey_year
         self.hours = hours
         self.minutes = minutes
         self.Arrival_hour = Arrival_hour
@@ -70,7 +68,6 @@ class CustomData:
                 "Total_Stops": [self.Total_Stops],
                 "Journey_day": [self.Journey_day],
                 "Journey_month": [self.Journey_month],
-                "Journey_year": [self.Journey_year],
                 "hours": [self.hours],
                 "minutes": [self.minutes],
                 "Arrival_hour": [self.Arrival_hour],
