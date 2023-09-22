@@ -28,7 +28,6 @@ class DataCleaning:
 
             df1['Journey_day']=pd.to_datetime(df1['Date_of_Journey'],format="%d/%m/%Y").dt.day
             df1['Journey_month']=pd.to_datetime(df1['Date_of_Journey'],format="%d/%m/%Y").dt.month
-            df1['Journey_year']=pd.to_datetime(df1['Date_of_Journey'],format="%d/%m/%Y").dt.year
             df1= df1.drop(['Date_of_Journey'], axis=1)
             logging.info('processing the training dataset as dataframe')
             df1['hours']=pd.to_datetime(df1['Dep_Time']).dt.hour
@@ -65,7 +64,6 @@ class DataCleaning:
 
             df2['Journey_day']=pd.to_datetime(df2['Date_of_Journey'],format="%d/%m/%Y").dt.day
             df2['Journey_month']=pd.to_datetime(df2['Date_of_Journey'],format="%d/%m/%Y").dt.month
-            df2['Journey_year']=pd.to_datetime(df2['Date_of_Journey'],format="%d/%m/%Y").dt.year
             df2= df2.drop(['Date_of_Journey'], axis=1)
             df2['hours']=pd.to_datetime(df2['Dep_Time']).dt.hour
             df2['minutes']=pd.to_datetime(df2['Dep_Time']).dt.minute
