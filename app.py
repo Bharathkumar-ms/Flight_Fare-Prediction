@@ -27,7 +27,6 @@ def predict_datapoint():
             Total_Stops=request.form.get('Total_Stops'),
             Journey_day=request.form.get('Journey_day'),
             Journey_month=request.form.get('Journey_month'),
-            Journey_year=request.form.get('Journey_year'),
             hours=request.form.get('hours'),
             minutes=request.form.get('minutes'),
             Arrival_hour=request.form.get(' Arrival_hour'),
