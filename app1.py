@@ -15,7 +15,6 @@ def prediction_form():
     total_stops = st.number_input('Total Stops', min_value=0, max_value=5, value=1)
     journey_day = st.number_input('Journey Day', min_value=1, max_value=31, value=1)
     journey_month = st.number_input('Journey Month', min_value=1, max_value=12, value=1)
-    journey_year = st.number_input('Journey Year', min_value=2000, max_value=2030, value=2022)
     hours = st.number_input('Departure Hours', min_value=0, max_value=23, value=0)
     minutes = st.number_input('Departure Minutes', min_value=0, max_value=59, value=0)
     arrival_hour = st.number_input('Arrival Hour', min_value=0, max_value=23, value=0)
@@ -33,7 +32,6 @@ def prediction_form():
             Total_Stops=total_stops,
             Journey_day=journey_day,
             Journey_month=journey_month,
-            Journey_year=journey_year,
             hours=hours,
             minutes=minutes,
             Arrival_hour=arrival_hour,
