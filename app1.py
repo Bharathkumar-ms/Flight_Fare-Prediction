@@ -49,7 +49,7 @@ def prediction_form():
 
         # Display the prediction result
         st.subheader('Prediction Result:')
-        st.write(f'Predicted Fare: {results[0]}')
+        st.write(f'Predicted Fare: Rs. {results[0]}')
 
 # Display the prediction form
 prediction_form()
