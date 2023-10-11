@@ -119,6 +119,7 @@ class ModelTrainer:
 
             # Calculate R-squared (R2) score
             r2 = r2_score(y_test, predicted)
+            adj_r2 = 1 - (1 - r2) * (len(y_test) - 1) / (len(y_test) - X_test.shape[1] - 1)
 
             # Calculate Mean Squared Error (MSE)
             mse = mean_squared_error(y_test, predicted)
@@ -129,8 +130,7 @@ class ModelTrainer:
             # Calculate Mean Absolute Error (MAE)
             mae = mean_absolute_error(y_test, predicted)
             
-            test_r2 = r2_score(y_test, y_test_pred)
-            test_adj_r2 = 1 - (1 - test_r2) * (len(y_test) - 1) / (len(y_test) - X_test.shape[1] - 1)
+            
 
 
 
