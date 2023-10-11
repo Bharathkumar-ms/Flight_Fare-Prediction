@@ -128,6 +128,9 @@ class ModelTrainer:
 
             # Calculate Mean Absolute Error (MAE)
             mae = mean_absolute_error(y_test, predicted)
+            
+            test_r2 = r2_score(y_test, y_test_pred)
+            test_adj_r2 = 1 - (1 - test_r2) * (len(y_test) - 1) / (len(y_test) - X_test.shape[1] - 1)
 
 
 
@@ -160,7 +163,7 @@ class ModelTrainer:
                 # Log the best model as an artifact
                 #mlflow.sklearn.log_model(best_model, "best_model")
 
-                return f"Best Model found is {best_model_name}, R-Squared is {r2}, MSE is {mse}, RMSE is {rmse}, MAE is {mae}"
+                return f"Best Model found is {best_model_name}, R-Squared is {r2}, Adjusted R-Squared is {test_adj_r2}, MSE is {mse}, RMSE is {rmse}, MAE is {mae}"
 
         except Exception as e:
             raise CustomException(e, sys)
